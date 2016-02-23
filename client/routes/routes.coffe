@@ -1,0 +1,5 @@
+Router.configure 
+  layoutTemplate: 'main_layout'
+
+Router.route '/', ->
+  @render 'main_layout'
